@@ -8,7 +8,7 @@ const Header = () => {
         <div>
             <header>
                 <div>
-                    <h1>Vivekanand Collage Kholapur</h1>
+                    <h1>Vivekanand Collage Kolhapur</h1>
                 </div>
                 <nav>
                     <ul id="nav_item">

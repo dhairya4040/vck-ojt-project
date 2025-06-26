@@ -32,9 +32,9 @@ const HomePage = () => {
           <li className="list">Holistic Development: Focus on co-curricular activities, sports, and community service.</li>
           <li className="list">Strong Placements: Excellent career opportunities with leading companies.</li>
         </ul>
-        <h2 class="section-title">Campus Life & Facilities</h2>
+        <h2 className="section-title">Campus Life & Facilities</h2>
 
-        <div class="campus-gallery">
+        <div className="campus-gallery">
           <div
             className="campus-img1"
             style={{ backgroundImage: `url(${"C:\On_job_tranning\React_pro\vck-react-project\vck-react-app\public\vivekanand-campus.jpg"})` }}
@@ -46,14 +46,14 @@ const HomePage = () => {
         </div>
 
 
-        <div class="explore-section">
-          <p class="explore-text">
+        <div className="explore-section">
+          <p className="explore-text">
             Explore our vibrant campus and state-of-the-art facilities designed to enhance your learning experience and personal growth.
           </p>
 
-          <p class="ready-text">Ready to explore our courses?</p>
+          <p className="ready-text">Ready to explore our courses?</p>
 
-          <button class="explore-button"><Link to="/course">Explore Courses</Link></button>
+          <button className="explore-button"><Link to="/course">Explore Courses</Link></button>
         </div>
 
       </div>

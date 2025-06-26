@@ -1,6 +1,6 @@
 import './styles/Pages.css'
 
-import {Route, BrousereRouter as Router, Routes}  from 'react-router-dom';
+import {Route, BrowserRouter as Router, Routes}  from 'react-router-dom';
 
 import './App.css';
 import HomePage from './Pages/HomePage';
@@ -8,6 +8,7 @@ import AboutPage from './Pages/AboutPage';
 import CoursePage from './Pages/CoursePage';
 import ContactPage from './Pages/ContactPage';
 import AdmissionPage from './Pages/AdmissionPage';
+import ChatbotComponent from './components/Chatbot/ChatbotComponent';
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
             <Route path="/course" element={<CoursePage />} />
             <Route path="/addmission" element={<AdmissionPage/>} />
           </Routes>
+          <ChatbotComponent/>
         </Router>
     
     </div>

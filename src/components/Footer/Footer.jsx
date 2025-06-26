@@ -1,4 +1,4 @@
-Footer.jsx
+
 import './Footer.css'
 
 const Footer = () =>{
